@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>FF Diamond</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+
+<!-- ============================================= -->
+<!-- ADSTERRA POPUNDER — сайт ашылғанда бір рет шығады -->
+<!-- ============================================= -->
+<script type="text/javascript" src="https://www.effectivecpmnetwork.com/hsefgs7ghq?key=3599484f35ede989aec9a3a494d6a72c"></script>
+<!-- ============================================= -->
+
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',sans-serif;}
 body{background:#000;display:flex;justify-content:center;align-items:flex-start;min-height:100vh;}
@@ -182,28 +189,28 @@ body{background:#000;display:flex;justify-content:center;align-items:flex-start;
     </div>
     <div class="content">
       <div class="ad-hero">
-        <h2>Watch Ads — Earn Diamonds!</h2>
+        <h2>Watch Ads — Earn Coins!</h2>
         <p>Each ad gives you a reward</p>
-        <div class="ad-reward">+$10 / ad</div>
-        <p style="font-size:12px;color:var(--ff-orange);">Today: <span id="adsWatched">0</span> ads &nbsp;|&nbsp; <span id="totalEarned">$0</span> earned</p>
+        <div class="ad-reward">+10 Coin / ad</div>
+        <p style="font-size:12px;color:var(--ff-orange);">Today: <span id="adsWatched">0</span> ads &nbsp;|&nbsp; <span id="totalEarned">0 Coin</span> earned</p>
       </div>
       <div class="ad-box">
         <div class="ad-box-icon">📺</div>
-        <div class="ad-box-info"><h3>Video Ad</h3><p>Watch 30 seconds, earn $10</p></div>
-        <div class="ad-reward-tag">$10</div>
+        <div class="ad-box-info"><h3>Video Ad</h3><p>Watch 30 seconds, earn 10 Coin</p></div>
+        <div class="ad-reward-tag">+10</div>
       </div>
       <div class="ad-box">
         <div class="ad-box-icon">🎮</div>
         <div class="ad-box-info"><h3>Game Ad</h3><p>Available every day</p></div>
-        <div class="ad-reward-tag">$10</div>
+        <div class="ad-reward-tag">+10</div>
       </div>
       <div class="ad-box">
         <div class="ad-box-icon">⭐</div>
         <div class="ad-box-info"><h3>Bonus Ad</h3><p>Extra spins for wheel</p></div>
-        <div class="ad-reward-tag">$10</div>
+        <div class="ad-reward-tag">+10</div>
       </div>
       <button class="watch-btn" id="watchAdBtn" onclick="watchAd()">
-        ▶ WATCH AD — EARN $10
+        ▶ WATCH AD — EARN 10 COIN
       </button>
     </div>
     <div class="nav" id="nav1"></div>
@@ -225,7 +232,7 @@ body{background:#000;display:flex;justify-content:center;align-items:flex-start;
         <canvas id="spinCanvas" width="300" height="300"></canvas>
         <div class="win-overlay">
           <div class="win-toast" id="winToast">
-            <h3 id="winAmount">+$20</h3>
+            <h3 id="winAmount">+20 Coin</h3>
             <p>Congratulations! 🎉</p>
           </div>
         </div>
@@ -249,7 +256,7 @@ body{background:#000;display:flex;justify-content:center;align-items:flex-start;
     <div class="content">
       <div class="stat-cards">
         <div class="stat-card"><div class="val" id="s_ads">0</div><div class="lbl">Ads watched</div></div>
-        <div class="stat-card"><div class="val" id="s_earned">$0</div><div class="lbl">Total earned</div></div>
+        <div class="stat-card"><div class="val" id="s_earned">0 Coin</div><div class="lbl">Total earned</div></div>
         <div class="stat-card"><div class="val" id="s_spins">0</div><div class="lbl">Spins used</div></div>
         <div class="stat-card"><div class="val" id="s_diamonds">0</div><div class="lbl">💎 Diamonds</div></div>
       </div>
@@ -284,19 +291,19 @@ body{background:#000;display:flex;justify-content:center;align-items:flex-start;
         <div class="diamond-pkg">
           <div class="pkg-icon">💎</div>
           <div class="pkg-info"><h3>100 Diamonds</h3><p>Starter pack</p></div>
-          <span class="pkg-price">$600</span>
+          <span class="pkg-price">600 Coin</span>
           <button class="buy-btn" onclick="buyPackage(100,600)">Buy</button>
         </div>
         <div class="diamond-pkg featured">
           <div class="pkg-icon">💎💎</div>
           <div class="pkg-info"><h3>200 Diamonds</h3><p>⭐ Most popular</p></div>
-          <span class="pkg-price">$1200</span>
+          <span class="pkg-price">1200 Coin</span>
           <button class="buy-btn" onclick="buyPackage(200,1200)">Buy</button>
         </div>
         <div class="diamond-pkg">
           <div class="pkg-icon">💎💎💎</div>
           <div class="pkg-info"><h3>500 Diamonds</h3><p>Premium pack</p></div>
-          <span class="pkg-price">$3000</span>
+          <span class="pkg-price">3000 Coin</span>
           <button class="buy-btn" onclick="buyPackage(500,3000)">Buy</button>
         </div>
       </div>
@@ -319,7 +326,7 @@ body{background:#000;display:flex;justify-content:center;align-items:flex-start;
         <div class="profile-code" id="pCode">—</div>
         <div class="profile-stats">
           <div class="ps"><div class="v" id="pAds">0</div><div class="l">Ads</div></div>
-          <div class="ps"><div class="v" id="pDollars">$0</div><div class="l">Earned</div></div>
+          <div class="ps"><div class="v" id="pDollars">0 Coin</div><div class="l">Earned</div></div>
           <div class="ps"><div class="v" id="pDiamonds">0</div><div class="l">💎</div></div>
         </div>
       </div>
@@ -340,6 +347,15 @@ body{background:#000;display:flex;justify-content:center;align-items:flex-start;
 
 <script>
 var STORAGE_KEY='ff_diamond_v2';
+
+/* ============================================= */
+/* ADSTERRA SMARTLINK — батырма басқанда ашылады  */
+/* ============================================= */
+var ADSTERRA_SMARTLINK='https://www.effectivecpmnetwork.com/hsefgs7ghq?key=3599484f35ede989aec9a3a494d6a72c';
+function openSmartlink(){
+  window.open(ADSTERRA_SMARTLINK,'_blank');
+}
+/* ============================================= */
 
 function genCode(){
   var c='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789',r='';
@@ -407,11 +423,11 @@ function updateAll(){
   var b=state.balance.toFixed(0);
   for(var n=1;n<=5;n++){var e=document.getElementById('d'+n+'bal');if(e)e.textContent=b;}
   setText('adsWatched',state.adsWatched);
-  setText('totalEarned','$'+state.totalEarned);
+  setText('totalEarned',state.totalEarned+' Coin');
   setText('spinCount',state.spins);
-  setText('s_ads',state.adsWatched);setText('s_earned','$'+state.totalEarned);
+  setText('s_ads',state.adsWatched);setText('s_earned',state.totalEarned+' Coin');
   setText('s_spins',state.spins);setText('s_diamonds',state.diamonds);
-  setText('pAds',state.adsWatched);setText('pDollars','$'+state.totalEarned);
+  setText('pAds',state.adsWatched);setText('pDollars',state.totalEarned+' Coin');
   setText('pDiamonds',state.diamonds);
   setText('pId',state.gameId||'—');
   setText('pCode',state.userCode);
@@ -427,11 +443,12 @@ function watchAd(){
   var btn=document.getElementById('watchAdBtn');
   if(btn.disabled)return;
   btn.disabled=true;btn.textContent='⏳ Loading ad...';
+  openSmartlink(); /* ADSTERRA SMARTLINK ашылады */
   setTimeout(function(){
     state.adsWatched++;state.totalEarned+=10;state.balance+=10;
-    addHistory('📺 Watched ad','+ $10');
-    btn.disabled=false;btn.textContent='▶ WATCH AD — EARN $10';
-    updateAll();flash('+$10 earned! 🎉');
+    addHistory('📺 Watched ad','+ 10 Coin');
+    btn.disabled=false;btn.textContent='▶ WATCH AD — EARN 10 COIN';
+    updateAll();flash('+10 Coin earned! 🎉');
   },2000);
 }
 
@@ -439,9 +456,10 @@ function watchAdForSpin(){
   var btn=document.getElementById('spinWatchBtn');
   if(btn.disabled)return;
   btn.disabled=true;
+  openSmartlink(); /* ADSTERRA SMARTLINK ашылады */
   setTimeout(function(){
     state.adsWatched++;state.totalEarned+=10;state.balance+=10;state.spins++;
-    addHistory('📺 Ad → Got spin','+ $10 + 1 spin');
+    addHistory('📺 Ad → Got spin','+ 10 Coin + 1 spin');
     btn.disabled=false;updateAll();flash('+1 Spin earned!');
   },2000);
 }
@@ -463,7 +481,7 @@ function drawWheel(){
     ctx.save();ctx.translate(cx,cy);ctx.rotate(s+(e-s)/2);
     ctx.fillStyle='#fff';ctx.font='bold 15px Segoe UI';
     ctx.textAlign='center';ctx.textBaseline='middle';
-    ctx.fillText('$'+PRIZES[i],r*0.64,0);ctx.restore();
+    ctx.fillText(PRIZES[i],r*0.64,0);ctx.restore();
   }
   ctx.beginPath();ctx.arc(cx,cy,24,0,2*Math.PI);
   ctx.fillStyle='#1a2340';ctx.fill();
@@ -489,8 +507,8 @@ function doSpin(){
       var idx=Math.floor(((2*Math.PI-norm+sa/2)%(2*Math.PI))/sa)%PRIZES.length;
       var prize=PRIZES[idx];
       state.balance+=prize;state.totalEarned+=prize;
-      addHistory('🎰 Spin won','+ $'+prize);
-      setText('winAmount','+$'+prize);
+      addHistory('🎰 Spin won','+ '+prize+' Coin');
+      setText('winAmount','+'+prize+' Coin');
       var toast=document.getElementById('winToast');
       toast.classList.add('show');
       setTimeout(function(){toast.classList.remove('show');spinning=false;document.getElementById('spinBtn').disabled=false;updateAll();},2200);
@@ -528,10 +546,10 @@ function updateSpentHistory(){
 function buyPackage(diamonds,cost){
   var id=document.getElementById('gameId').value.trim();
   if(!id){flash('Enter Game ID first!');return;}
-  if(state.balance<cost){flash('Need $'+cost+'! Watch more ads.');return;}
+  if(state.balance<cost){flash('Need '+cost+' Coin! Watch more ads.');return;}
   state.balance-=cost;state.diamonds+=diamonds;state.gameId=id;
-  state.purchases.unshift({label:'💎 '+diamonds+' diamonds (ID:'+id+')',cost:'-$'+cost});
-  addHistory('💎 Bought '+diamonds+' diamonds','-$'+cost);
+  state.purchases.unshift({label:'💎 '+diamonds+' diamonds (ID:'+id+')',cost:'-'+cost+' Coin'});
+  addHistory('💎 Bought '+diamonds+' diamonds','-'+cost+' Coin');
   state.shopProgress=Math.min(100,state.shopProgress+30);
   updateAll();flash(diamonds+' Diamonds added! 💎');
 }
